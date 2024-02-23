@@ -17,3 +17,14 @@ How to get a Protopie file running on a small Raspberry Pi Screen
 ```
 - Mount the screen on the raspi and connect the USB and HDMI parts with the connection pieces delivered witht he Waveshare screen [documentation](https://www.kiwi-electronics.com/en/4-3inch-hdmi-lcd-b-800x480-ips-capacitive-touch-4065)
 - If you want to work  wireless, consider working with an external power source
+- Now you can run Raspberry Pi on the screen, allowing you to work with the browser, hence with Protopie
+
+# Protopie connection
+## Simple cases
+- Just share the Protopie Cloud URL and put on fullscreen
+## Complex cases
+- Run Protopie Connect on a server computer
+- Make sure both server and raspberry pi are on the same network
+- Get the `IP adress of the server` protopie connect > connect > IP adress)
+- Get the `ID of the pie` (open the pie in the browser on your server and check the url)
+- Access the protopies on your raspi using the following URL structure `http://{IP_of_the_server}:9981/pie?pieid={ID_of_the_pie}`
