@@ -15,7 +15,7 @@ How to get a Protopie file running on a small Raspberry Pi Screen
     hdmi_mode=87
     hdmi_cvt 800 480 60 6 0 0 0
 ```
-- Mount the screen on the raspi and connect the USB and HDMI parts with the connection pieces delivered with the Waveshare screen [documentation](https://www.kiwi-electronics.com/en/4-3inch-hdmi-lcd-b-800x480-ips-capacitive-touch-4065)
+- Mount the screen on the raspi and connect the USB and HDMI parts with the connection pieces delivered with the Waveshare screen [documentation](https://www.kiwi-electronics.com/en/4-3inch-hdmi-lcd-b-800x480-ips-capacitive-touch-4065) & [more documentation](https://www.waveshare.com/wiki/4.3inch_HDMI_LCD_(B))
 - If you want to work  wireless, consider working with an external power source
 - Now you can run Raspberry Pi on the screen, allowing you to work with the browser, hence with Protopie
 
